@@ -60,7 +60,8 @@ body {
 }
 .rubrique h2 {
     color: rgb(226,0,26);
-    padding-bottom: 20px;
+    padding-top : 20px;
+    padding-bottom: 15px;
 }
 .rubrique h2::before{
     margin-right: 5px;
@@ -385,4 +386,18 @@ body {
 }
 #competences .container .classement5 {
     background-position: 0 0px;
+}
+/******************************************
+* Passions
+******************************************/
+.passions {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 5px;
+  background: #000;
+  position: relative;
+  font-size: 1.2em;
+  border-radius: 10px;
 }
